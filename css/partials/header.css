@@ -1,0 +1,26 @@
+header {
+  background-color: var(--Header-BGC);
+}
+.header {
+  min-height: 100px;
+  padding: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerUL {
+  display: flex;
+}
+.headerUL__li {
+  list-style: none;
+}
+.headerUL__li--a {
+  color: var(--Text-color);
+  text-decoration: none;
+  margin-left: 10px;
+  font-family: 'Karla', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.25rem;
+}
+.headerActive {
+  color: var(--Emphasys-color);
+}

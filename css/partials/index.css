@@ -1,0 +1,43 @@
+.mainIndex {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  padding-top: 50px;
+}
+.homeLeft {
+  width: 30%;
+  max-width: 450px;
+  min-width: 350px;
+}
+.homeRight {
+  width: 100%;
+}
+
+.homeLeft__header {
+  text-align: center;
+  font-size: 2rem;
+}
+.homeLeft__Icons {
+  padding: 25px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fa-css3-alt,
+.fa-html5,
+.fa-js {
+  color: var(--Emphasys-color);
+  font-size: 4rem;
+}
+.homeLeft__intro--p {
+  max-width: 500px;
+  padding-bottom: 25px;
+}
+
+.homeRight__img {
+  width: 450px;
+  height: 600px;
+  background-color: grey;
+  float: right;
+  overflow: auto;
+}
