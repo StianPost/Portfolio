@@ -48,8 +48,27 @@
 @media (max-width: 991px) /*Tablet*/ {
 }
 
+@media (max-width: 880px) /*Small-Tablet*/ {
+  .mainIndex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .homeRight__img {
+    float: none;
+    margin: auto;
+  }
+}
+
 @media (max-width: 767px) /*Mobile*/ {
 }
 
 @media (max-width: 600px) /*Small-Mobile*/ {
+  .homeRight__img {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+  }
+  .homeLeft {
+    min-width: none;
+  }
 }
