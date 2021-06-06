@@ -41,3 +41,15 @@
   float: right;
   overflow: auto;
 }
+
+@media (max-width: 1200px) /*Desktop*/ {
+}
+
+@media (max-width: 991px) /*Tablet*/ {
+}
+
+@media (max-width: 767px) /*Mobile*/ {
+}
+
+@media (max-width: 600px) /*Small-Mobile*/ {
+}
