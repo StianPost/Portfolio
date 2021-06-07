@@ -40,24 +40,29 @@
               </li>
             </ul>
           </nav>
-          <div class="hamburgerBtn">
+          <div class="hamburgerBtn" id="hamburgerOpenBtn">
             <i class="fas fa-bars headerActive"></i>
           </div>
-          <div class="hamburger">
-            <ul class="hamburgerUL">
-              <li class="hamburgerUL__li">
-                <a class="hamburgerUL__li--a headerActive" href="/">Home</a>
-              </li>
-              <li class="hamburgerUL__li">
-                <a class="hamburgerUL__li--a" href="/project.html">Project</a>
-              </li>
-              <li class="hamburgerUL__li">
-                <a class="hamburgerUL__li--a" href="/contact.html">Contact</a>
-              </li>
-              <li class="hamburgerUL__li">
-                <a class="hamburgerUL__li--a" href="/blogs.html">Blogs</a>
-              </li>
-            </ul>
+          <div class="hamburgOverlay hide" id="hamburgOverlay">
+            <div class="hamurgerCloseBtn" id="hamburgerCloseBtn">
+              <i class="far fa-window-close headerActive"></i>
+            </div>
+            <div class="hamburger">
+              <ul class="hamburgerUL">
+                <li class="hamburgerUL__li">
+                  <a class="hamburgerUL__li--a" href="/">Home</a>
+                </li>
+                <li class="hamburgerUL__li">
+                  <a class="hamburgerUL__li--a" href="/project.html">Project</a>
+                </li>
+                <li class="hamburgerUL__li">
+                  <a class="hamburgerUL__li--a" href="/contact.html">Contact</a>
+                </li>
+                <li class="hamburgerUL__li">
+                  <a class="hamburgerUL__li--a" href="/blogs.html">Blogs</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -93,5 +98,6 @@
       </div>
     </main>
     <footer></footer>
+    <script src="/js/burger.js"></script>
   </body>
 </html>

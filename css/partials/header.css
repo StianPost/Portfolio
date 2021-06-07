@@ -27,7 +27,8 @@ header {
   color: var(--Emphasys-color);
 }
 
-.fa-bars {
+.fa-bars,
+.fa-window-close {
   font-size: 2rem;
   position: absolute;
   top: 30px;
@@ -43,6 +44,9 @@ header {
 @media (max-width: 767px) /*Mobile*/ {
   nav {
     display: none;
+  }
+  .hamburgerBtn {
+    display: block;
   }
 }
 

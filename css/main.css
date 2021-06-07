@@ -1,6 +1,8 @@
 @import url(/css/partials/variables.css);
 @import url(/css/partials/layout.css);
+@import url(/css/partials/errorMessage.css);
 @import url(/css/partials/header.css);
+@import url(/css/partials/hamburger.css);
 @import url(/css/partials/footer.css);
 @import url(/css/partials/index.css);
 @import url(/css/partials/project.css);
