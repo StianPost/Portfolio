@@ -1,3 +1,10 @@
+.inputfield {
+  background-color: var(--Box-BGC);
+  width: 550px;
+  margin: 25px 0px;
+  padding: 5px;
+}
+
 @media (max-width: 1200px) /*Desktop*/ {
 }
 
