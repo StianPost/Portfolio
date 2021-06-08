@@ -34,6 +34,9 @@ header {
   top: 30px;
   right: 30px;
 }
+.hamburgerBtn {
+  display: none;
+}
 
 @media (max-width: 1200px) /*Desktop*/ {
 }

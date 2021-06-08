@@ -1,6 +1,6 @@
 .mainIndex {
   display: flex;
-  width: 85%;
+  width: 80%;
   margin: auto;
   padding-top: 50px;
 }
@@ -32,6 +32,7 @@
 .homeLeft__intro--p {
   max-width: 500px;
   padding-bottom: 25px;
+  font-size: 1.5rem;
 }
 
 .homeRight__img {

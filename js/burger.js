@@ -1,16 +1,12 @@
 const hamburgerOpenBtn = document.querySelector('#hamburgerOpenBtn');
-const hamburgerCloseBtn = document.querySelector('#hamburgerCloseBtn');
-const hamburgerOverlay = document.querySelector('#hamburgOverlay');
+const hamburgerCloseBtn = document.querySelector('.hamburgerCloseBtn');
+const hamburgerOverlay = document.querySelector('.hamburgOverlay');
 
 hamburgerOpenBtn.onclick = () => {
-  // hamburgerOverlay.classList.remove('hide');
-  hamburgerOpenBtn.classList.add('hide');
-  hamburgerOverlay.style.display = 'block';
-  console.log('open');
+  hamburgerOverlay.classList.remove('hide');
+  hamburgerOpenBtn.style.display = 'none';
 };
 hamburgerCloseBtn.onclick = () => {
-  // hamburgerOverlay.classList.add('hide');
-  hamburgerOverlay.style.display = 'none';
-  hamburgerOpenBtn.classList.remove('hide');
-  console.log('close');
+  hamburgerOverlay.classList.add('hide');
+  hamburgerOpenBtn.style.display = 'block';
 };
