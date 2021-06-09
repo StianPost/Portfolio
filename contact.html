@@ -41,21 +41,38 @@
         </div>
       </div>
     </header>
-    <main>
-      <h1>Contact me</h1>
+    <main class="contactMain">
+      <h1 class="contactH1">Contact me</h1>
       <div class="socials"></div>
-      <h2>Message form</h2>
+      <h2 class="contactH2">Message form</h2>
       <form action="">
         <div class="inputfield">
-          <input class="" type="text" name="nameInput" id="nameInput" />
+          <input
+            class="inputfieldText"
+            type="text"
+            name="nameInput"
+            id="nameInput"
+            placeholder="Name..."
+          />
         </div>
         <div class="inputfield">
-          <input type="email" name="emailInput" id="emailInput" />
+          <input
+            class="inputfieldText"
+            type="email"
+            name="emailInput"
+            id="emailInput"
+            placeholder="Email"
+          />
         </div>
         <div class="inputfield">
-          <textarea name="textInput" id="textInput"></textarea>
+          <textarea
+            placeholder="Message..."
+            class="inputfieldTextBox"
+            name="textInput"
+            id="textInput"
+          ></textarea>
         </div>
-        <input type="submit" value="Submit" />
+        <input class="contactBtn" type="submit" value="Submit" />
       </form>
     </main>
   </body>

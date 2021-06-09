@@ -1,8 +1,59 @@
+.contactH1 {
+  margin: 25px 0px;
+}
+.contactMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.socials {
+  width: 500px;
+  height: 200px;
+  padding: 10px;
+  background-color: var(--Box-BGC);
+}
+.contactH2 {
+  margin-top: 25px;
+}
+form {
+  display: inherit;
+  flex-direction: inherit;
+  align-items: inherit;
+}
 .inputfield {
   background-color: var(--Box-BGC);
   width: 650px;
   margin: 25px 0px;
-  padding: 5px;
+  padding: 10px;
+}
+.inputfieldText,
+.inputfieldTextBox {
+  background-color: var(--Box-BGC);
+  border: none;
+  color: var(--Text-color);
+  font-size: 1.5rem;
+}
+.inputfieldText {
+  height: 50px;
+  width: 100%;
+}
+.inputfieldTextBox {
+  height: 250px;
+  width: 100%;
+}
+.contactBtn {
+  width: 250px;
+  height: 75px;
+  border: 4px var(--Box-BGC) solid;
+  background-color: var(--Emphasys-color);
+  color: var(--Box-BGC);
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.contactBtn:hover {
+  background-color: var(--Box-BGC);
+  border: 4px var(--Emphasys-color) solid;
+  color: var(--Emphasys-color);
 }
 
 @media (max-width: 1200px) /*Desktop*/ {
