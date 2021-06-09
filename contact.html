@@ -51,29 +51,43 @@
             class="inputfieldText"
             type="text"
             name="nameInput"
-            id="nameInput"
+            id="contactName"
             placeholder="Name..."
           />
+          <p class="contactNameError error hide">
+            Name is too short, must be 5+ chars
+          </p>
         </div>
         <div class="inputfield">
           <input
             class="inputfieldText"
             type="email"
             name="emailInput"
-            id="emailInput"
+            id="contactEmail"
             placeholder="Email"
           />
+          <p class="contactEmailError error hide">Email is incorrect</p>
         </div>
         <div class="inputfield">
           <textarea
             placeholder="Message..."
             class="inputfieldTextBox"
             name="textInput"
-            id="textInput"
+            id="contactField"
           ></textarea>
+          <p class="contactTextError error hide">
+            Message must be 15 chars long
+          </p>
         </div>
-        <input class="contactBtn" type="submit" value="Submit" />
+        <div class="verifyer hide">Message sent!</div>
+        <input
+          id="contactBtn"
+          class="contactBtn"
+          type="submit"
+          value="Submit"
+        />
       </form>
     </main>
+    <script src="/js/contact.js"></script>
   </body>
 </html>
