@@ -25,7 +25,9 @@
 
 .fa-css3-alt,
 .fa-html5,
-.fa-js {
+.fa-js,
+.fa-github,
+.fa-figma {
   color: var(--Emphasys-color);
   font-size: 4rem;
 }

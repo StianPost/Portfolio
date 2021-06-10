@@ -8,6 +8,10 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.logo {
+  display: flex;
+  justify-content: center;
+}
 .headerUL {
   display: flex;
 }
@@ -19,9 +23,11 @@ header {
 .hamburgerUL__li--a {
   color: var(--Text-color);
   text-decoration: none;
-  margin-left: 10px;
   font-family: 'Karla', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 1.25rem;
+}
+.headerUL__li--a {
+  margin-left: 10px;
 }
 .headerActive {
   color: var(--Emphasys-color);
