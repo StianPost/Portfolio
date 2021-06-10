@@ -21,18 +21,20 @@
     <header>
       <div class="header">
         <div class="header__left">
-          <div class="logo">Hello</div>
+          <div class="logo">
+            <a href="/">
+              <img src="/img/logo.png" alt="Postal Web's logo" />
+            </a>
+          </div>
         </div>
         <div class="header__right">
           <nav>
             <ul class="headerUL">
               <li class="headerUL__li">
-                <a class="headerUL__li--a" href="/">Home</a>
+                <a class="headerUL__li--a headerActive" href="/">Home</a>
               </li>
               <li class="headerUL__li">
-                <a class="headerUL__li--a headerActive" href="/project.html"
-                  >Project</a
-                >
+                <a class="headerUL__li--a" href="/project.html">Projects</a>
               </li>
               <li class="headerUL__li">
                 <a class="headerUL__li--a" href="/contact.html">Contact</a>
@@ -42,6 +44,37 @@
               </li>
             </ul>
           </nav>
+          <div class="hamburgerBtn" id="hamburgerOpenBtn">
+            <i class="fas fa-bars headerActive"></i>
+          </div>
+        </div>
+      </div>
+      <div class="hamburgOverlay hide" id="hamburgOverlay">
+        <div class="hamburgContainer">
+          <div class="hamburgerCloseBtn" id="hamburgerCloseBtn">
+            <i class="far fa-window-close headerActive"></i>
+          </div>
+          <div class="hamburger">
+            <div class="logo">
+              <a href="/">
+                <img src="/img/logo.png" alt="Postal Web's logo" />
+              </a>
+            </div>
+            <ul class="hamburgerUL">
+              <li class="hamburgerUL__li">
+                <a class="hamburgerUL__li--a" href="/">Home</a>
+              </li>
+              <li class="hamburgerUL__li">
+                <a class="hamburgerUL__li--a" href="/project.html">Projects</a>
+              </li>
+              <li class="hamburgerUL__li">
+                <a class="hamburgerUL__li--a" href="/contact.html">Contact</a>
+              </li>
+              <li class="hamburgerUL__li">
+                <a class="hamburgerUL__li--a" href="/blogs.html">Blogs</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
