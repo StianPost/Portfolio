@@ -50,7 +50,22 @@
 }
 
 @media (max-width: 767px) /*Mobile*/ {
+  .proCard {
+    flex-direction: column;
+  }
+  .proCard__left--img {
+    height: 330px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .proCard__right--h2 {
+    font-size: 2rem;
+  }
+  .proCard__right--p {
+    font-size: 1.2rem;
+    padding-top: 10px;
+  }
 }
 
-@media (max-width: 600px) /*Small-Mobile*/ {
+@media (max-width: 650px) /*Small-Mobile*/ {
 }
