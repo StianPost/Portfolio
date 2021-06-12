@@ -17,8 +17,11 @@
   font-size: 2rem;
 }
 .homeLeft__Icons {
-  padding: 25px 0px;
   display: flex;
+  padding: 5px;
+}
+.homeLeftIcons {
+  padding: 25px 0px;
 }
 
 .fa-css3-alt,
