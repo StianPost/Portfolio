@@ -5,8 +5,8 @@
   padding-top: 50px;
 }
 .homeLeft {
-  width: 30%;
-  max-width: 450px;
+  width: 50%;
+  max-width: 750px;
   min-width: 350px;
 }
 .homeRight {
@@ -14,13 +14,11 @@
 }
 
 .homeLeft__header {
-  text-align: center;
   font-size: 2rem;
 }
 .homeLeft__Icons {
   padding: 25px 0px;
   display: flex;
-  justify-content: space-evenly;
 }
 
 .fa-css3-alt,
@@ -30,6 +28,7 @@
 .fa-figma {
   color: var(--Emphasys-color);
   font-size: 4rem;
+  margin-right: 30px;
 }
 .homeLeft__intro--p {
   max-width: 500px;
