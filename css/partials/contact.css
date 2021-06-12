@@ -12,6 +12,17 @@
   padding: 10px;
   background-color: var(--Box-BGC);
 }
+.social__tabs {
+  display: flex;
+}
+.social__tabs--p {
+  margin-left: 15px;
+  font-size: 1.5rem;
+}
+.fa-linkedin-in {
+  color: var(--Emphasys-color);
+  font-size: 1.5rem;
+}
 .contactH2 {
   margin-top: 25px;
 }
