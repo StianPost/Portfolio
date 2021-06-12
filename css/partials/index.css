@@ -8,7 +8,10 @@
 .homeLeft {
   width: 60%;
 }
-
+.homeRight {
+  display: flex;
+  align-items: center;
+}
 .homeLeft__header {
   font-size: 2rem;
 }
