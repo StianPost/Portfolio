@@ -7,7 +7,6 @@
 }
 .homeLeft {
   width: 60%;
-  max-width: 750px;
 }
 
 .homeLeft__header {
@@ -20,20 +19,16 @@
 .homeLeftIcons {
   padding: 25px 0px;
 }
-
-.fa-css3-alt,
-.fa-html5,
-.fa-js,
-.fa-github,
-.fa-figma {
+.indexIcons {
   color: var(--Emphasys-color);
   font-size: 4rem;
   margin-right: 30px;
 }
 .homeLeft__intro--p {
-  max-width: 500px;
+  max-width: 650px;
   padding-bottom: 25px;
   font-size: 1.5rem;
+  margin-right: 25px;
 }
 
 .homeRight__img {
@@ -51,6 +46,9 @@
 }
 
 @media (max-width: 880px) /*Small-Tablet*/ {
+  .homeLeft__intro--p {
+    margin-right: 0px;
+  }
   .mainIndex {
     flex-direction: column;
     align-items: center;
