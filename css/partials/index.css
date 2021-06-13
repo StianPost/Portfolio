@@ -61,16 +61,15 @@
     float: none;
     margin: auto;
   }
+  .homeLeft {
+    min-width: none;
+    width: 90%;
+  }
 }
 
 @media (max-width: 767px) /*Mobile*/ {
   .mainIndex {
     width: 100%;
-  }
-
-  .homeLeft {
-    min-width: none;
-    width: 90%;
   }
   .homeRight {
     width: 100%;

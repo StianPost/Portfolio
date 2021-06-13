@@ -9,13 +9,14 @@
 }
 
 .verifyer {
-  text-align: center;
+  width: 90%;
+  max-width: 650px;
 }
 
 .danger {
-  background-color: rgb(255 124 124);
+  background-color: #03dac6;
   color: black;
-  border: solid 1px red;
+  border: solid 1px #cf6679;
   padding: 20px;
   transition: 2s;
   text-align: center;
@@ -23,11 +24,14 @@
 }
 
 .success {
-  background-color: rgb(148, 247, 139);
+  background-color: #03dac6;
   color: black;
-  border: solid 1px darkgreen;
-  padding: 20px;
+  border: solid 1px #03dac6;
+  padding: 10px;
   transition: 2s;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 25px;
 }
 
 .warning {
