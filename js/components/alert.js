@@ -4,8 +4,3 @@ function showAlertTouser(
 ) {
   return `<div class="${classType}">${message}</div>`;
 }
-
-// document.querySelector('.alert').innerHTML = showAlertTouser(
-//     'An error occured',
-//     'danger'
-//   );
