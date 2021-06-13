@@ -7,7 +7,8 @@
   align-items: center;
 }
 .socials {
-  width: 500px;
+  width: 90%;
+  max-width: 500px;
   height: 200px;
   padding: 10px;
   background-color: var(--Box-BGC);
@@ -30,10 +31,12 @@ form {
   display: inherit;
   flex-direction: inherit;
   align-items: inherit;
+  width: 100%;
 }
 .inputfield {
   background-color: var(--Box-BGC);
-  width: 650px;
+  width: 90%;
+  max-width: 650px;
   margin: 25px 0px;
   padding: 10px;
 }
