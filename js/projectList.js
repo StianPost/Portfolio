@@ -1,5 +1,6 @@
 const projectUrl = 'http://portfolio.postal.one/wp-json/wp/v2/posts';
 const projectContainer = document.querySelector('.proContainer');
+const loading = document.querySelector('.loading');
 
 async function getProjects(url) {
   try {
@@ -18,6 +19,7 @@ async function getProjects(url) {
 getProjects(projectUrl);
 
 function getProjectCards(result) {
+  loading.innerHTML = ``;
   for (let i = 0; i < 5; i++) {
     projectContainer.innerHTML += `
       <div class="proCard">
