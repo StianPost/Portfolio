@@ -37,9 +37,10 @@
 .homeRight__img {
   width: 450px;
   height: 600px;
-  background-color: grey;
-  float: right;
-  overflow: auto;
+  background-image: url(/img/avataaars.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (max-width: 1200px) /*Desktop*/ {
