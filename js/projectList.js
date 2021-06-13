@@ -1,5 +1,5 @@
 const projectUrl =
-  'https://noroffcors.herokuapp.com/http://portfolio.postal.one/wp-json/wp/v2/posts';
+  'https://noroffcors.herokuapp.com/https://portfolio.postal.one/wp-json/wp/v2/posts';
 const projectContainer = document.querySelector('.proContainer');
 const loading = document.querySelector('.loading');
 
