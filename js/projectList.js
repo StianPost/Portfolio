@@ -21,7 +21,7 @@ getProjects(projectUrl);
 
 function getProjectCards(result) {
   loading.innerHTML = ``;
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < result.length; i++) {
     projectContainer.innerHTML += `
       <div class="proCard">
       <div class="proCard__left">
