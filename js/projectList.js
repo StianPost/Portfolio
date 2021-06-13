@@ -12,8 +12,14 @@ async function getProjects(url) {
 
     getProjectCards(result);
   } catch (error) {
-    console.log(error);
+    document.querySelector('.alert').innerHTML = showAlertTouser(
+      'Could not find projects :c',
+      'danger'
+    );
   } finally {
+    setTimeout(function () {
+      document.querySelector('.alert').innerHTML = '';
+    }, 3000);
   }
 }
 

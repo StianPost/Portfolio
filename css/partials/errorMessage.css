@@ -18,6 +18,8 @@
   border: solid 1px red;
   padding: 20px;
   transition: 2s;
+  text-align: center;
+  font-size: 2rem;
 }
 
 .success {
