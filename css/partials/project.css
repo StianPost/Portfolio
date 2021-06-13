@@ -12,16 +12,15 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  max-width: 1800px;
   margin: auto;
 }
 .proCard {
   display: flex;
   background-color: var(--Box-BGC);
-  width: 800px;
-  min-height: 450px;
+  width: 700px;
+  min-height: 300px;
   padding: 20px;
-  margin: 25px 25px;
+  margin: 20px 20px;
 }
 .proCard__right {
   display: flex;
@@ -33,20 +32,35 @@
   width: 330px;
   background-color: grey;
   margin-right: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 .proCard__right--h2 {
   color: var(--Emphasys-color);
   font-size: 3rem;
 }
 .proCard__right--p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   padding-top: 10px;
+}
+.proCard__link {
+  color: var(--Emphasys-color);
+}
+@media (max-width: 1600px) /*Desktop*/ {
+  .proCard {
+    width: 1000px;
+    margin: 20px 0px;
+  }
 }
 
 @media (max-width: 1200px) /*Desktop*/ {
 }
 
 @media (max-width: 991px) /*Tablet*/ {
+  .proCard {
+    margin: 20px 5px;
+  }
 }
 
 @media (max-width: 767px) /*Mobile*/ {
@@ -54,7 +68,7 @@
     flex-direction: column;
   }
   .proCard__left--img {
-    height: 330px;
+    height: 250px;
     width: 100%;
     margin-bottom: 20px;
   }
