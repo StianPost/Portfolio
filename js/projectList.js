@@ -16,7 +16,7 @@ async function getProjects(url) {
   } finally {
     setTimeout(function () {
       document.querySelector('.alert').innerHTML = '';
-    }, 3000);
+    }, 10000);
   }
 }
 
