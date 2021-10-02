@@ -42,7 +42,11 @@ submit.onclick = (event) => {
 
   setTimeout(() => {
     verification.classList.add('hide');
-  }, 3000);
+  }, 4000);
+
+  document.querySelector('#contactName').value = '';
+  document.querySelector('#contactEmail').value = '';
+  document.querySelector('#contactField').value = '';
 };
 
 function validateEmail(emailAddress) {
