@@ -41,6 +41,9 @@
   background-repeat: no-repeat;
   background-position: top;
 }
+.projectImgReact {
+  background-image: url(/img/react.jpg);
+}
 .projectImgPorfolio {
   background-image: url(/img/portfolio.jpg);
 }
