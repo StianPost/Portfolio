@@ -33,13 +33,25 @@
   justify-content: space-between;
 }
 .proCard__left--img {
-  height: 100%;
+  height: 60%;
   width: 330px;
   background-color: grey;
   margin-right: 20px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+}
+.projectImgPorfolio {
+  background-image: url(/img/portfolio.jpg);
+}
+.projectImgExam {
+  background-image: url(/img/proj_exam.jpg);
+}
+.projectImgSem1 {
+  background-image: url(/img/sem_proj.jpg);
+}
+.projectImgHTML {
+  background-image: url(/img/html_css.jpg);
 }
 .proCard__right--h2 {
   color: var(--Emphasys-color);
