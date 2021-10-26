@@ -22,7 +22,7 @@
 .proCard {
   display: flex;
   background-color: var(--Box-BGC);
-  width: 700px;
+  width: 750px;
   min-height: 300px;
   padding: 20px;
   margin: 20px 20px;
@@ -33,13 +33,13 @@
   justify-content: space-between;
 }
 .proCard__left--img {
-  height: 60%;
-  width: 330px;
+  height: 100%;
+  width: 400px;
   background-color: grey;
   margin-right: 20px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: center;
 }
 .projectImgReact {
   background-image: url(/img/react.jpg);
